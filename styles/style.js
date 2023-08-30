@@ -28,7 +28,7 @@ export const gStyles = StyleSheet.create({
     minWidth: "100%",
     paddingLeft: 16,
     paddingRight: 16,
-    paddingBottom: 78,
+    // paddingBottom: 78,
     paddingTop: 92,
     // borderRadius: "25 25 0 0",
     backgroundColor: "#FFF",
@@ -42,7 +42,7 @@ export const gStyles = StyleSheet.create({
     zIndex: 10,
     left: "50%",
     transform: [{ translateX: -50 }],
-    width: 132,
+    width: 120,
     height: 120,
     backgroundColor: "rgba(246, 246, 246, 1)",
     borderTopLeftRadius: 15,
@@ -56,13 +56,19 @@ export const gStyles = StyleSheet.create({
 //     // backgroundColor: "rgba(246, 246, 246, 1)",
 //   },
 
+  inputWrp: {
+    display: "flex",
+    flexDirection: "column",
+    gap: 16,
+  },
+
   input: {
     // width: 343,
     height: 50,
     padding: 16,
     // color: ${({placeholder}) => placeholder? rgba(189, 189, 189, 1) : 'black'},
     backgroundColor: "rgba(246, 246, 246, 1)",
-    marginBottom: 16,
+    // marginBottom: 16,
     borderWidth: 1,
     borderTopLeftRadius: 5,
     borderTopRightRadius: 5,
@@ -97,5 +103,6 @@ export const gStyles = StyleSheet.create({
     marginLeft: "auto",
     marginRight: "auto",
     marginTop: 16,
+    marginBottom: 78,
   },
 });
